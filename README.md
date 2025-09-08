@@ -11,7 +11,7 @@ Desenvolvimento de Site Web
 ### Imagens
 [pixabay](https://pixabay.com/pt/)
 
-[icon-icons](https://icon-icons.com/pt/
+[icon-icons](https://icon-icons.com/pt/)
 
 [iconfinder](https://www.iconfinder.com)
 
