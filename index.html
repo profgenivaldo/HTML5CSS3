@@ -2,14 +2,150 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto exemplo de um site simples responsivo">
-    <title>HTML5 e CSS3 - One Page Site</title>
-    <link rel="icon" href="img/favicon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Minha Pagina Web</title>
 </head>
 <body>
+
+    <!--<style>
+        body{
+            background-color: #08fc00;
+        }
+
+    </style>-->
+
+    <h1>Aprendendo HTML5 e CSS3</h1>
+
+    <!-- Seção de Inicio do Documento-->
+     <h2 id="secao1">Inicio do Documento</h2>
+
+
+    <h2>Paragráfo</h2>
+    <p>Este e o meu primeiro parágrafo.</p>
+    <p>Este é meu segundo parágrafo</p>
+
+    <h2>Títulos</h2>
+    <h1>Título - h1</h1>
+    <h2>Título - h2</h2>
+    <h3>Título - h3</h3>
+    <h4>Título - h4</h4>
+    <h5>Título - h5</h5>
+    <h6>Título - h6</h6>
+
+    <h2>Links</h2>
+
+    <a href="https://www.google.com.br">Link para o site do Google</a>
+
+
+    <h2>Elementos em Bloco e em Linha</h2>
+
+    <div>Este é um elemento de Bloco</div>
+    <span>Este e um elemento de linha</span>
+
+    <h2>Comentários</h2>
+    <h3>O comentário não irá aparecer aqui</h3>
+    <!--Este é um comentário-->
+
+    <h2>Formatação no HTML</h2>
     
+    <h3>
+    <p><b>Esta frase está em Negrito</b></p>
+    <p><i>Esta frase está em Itálico</i></p>
+    <p><u>Esta frase está sublinhada</u></p>
+    <p><s>Esta frase está Tachada</s></p>
+    </h3>
+
+    <h2>Caracteres Especiais</h2>
+
+    <h3>&quot;Esta frase está em destaque&quot;</h3>
+
+    <h2>Caracteres Unicode</h2>
+
+    <h3>Marca Registrada&#174;</h3>
+
+    <h2>Listas em HTML</h2>
+
+    <h2>Listas Não Ordenadas </h2>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    
+    <h2>Listas Ordenadas </h2>
+
+    <ol>
+        <li>Primeiro Item</li>
+        <li>Segundo Item</li>
+        <li>Terceiro Item</li>
+    </ol>
+
+    <h2>Listas Aninhadas</h2>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ul>
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li>Item 2.3</li>
+        </ul>
+    <li>Item 3</li>
+        <ul>
+            <li>Item 3.1</li>
+            <li>Item 3.2</li>
+        </ul>
+    </ul>
+
+    <h2>Navegação entre páginas do mesmo site</h2>
+
+    <a href="pagina2.html">Ir para a página 2</a>
+
+    <h2>Link para uma Seção Específica do Documento</h2>
+
+    <a href="#secao1">Ir para o inicio do documento</a>
+
+    <h2>Inserindo imagens</h2>
+    <img src="img/rosa.jpg" alt="Apenas uma Rosa" title="Uma Flor" width="100" height="100">
+
+    <h2>Tabelas</h2>
+
+    <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;" >
+        <tr>
+            <th bgcolor="#93DB70">Nome</th>
+            <th bgcolor="#93DB70">SobreNome</th>
+            <th bgcolor="#93DB70">Idade</th>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>de Souza</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Antonio</td>
+            <td>Xavier</td>
+            <td>52</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>de Medeiros</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+    <h2>Formulários</h2>
+
+    <form action="/processar_formulario" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
 </body>
 </html>
