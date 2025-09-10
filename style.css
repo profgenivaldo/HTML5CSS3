@@ -1,11 +1,13 @@
-/*
-Folha de estilo site one page HTML5 e CSS3
-Autor: Prof. Genivaldo
-Baseado nas aulas do Prof. José de Assis
-Validar o código no W3C: validator.w3.org
-Validar o código CSS no W3C: jigsaw.w3.org/css-validator
-*/
-
 body{
-    background-color: red;
+    background-color: #08fc00;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+h2 {
+    color: #fd0303;
+    font-size: 36px;
 }
